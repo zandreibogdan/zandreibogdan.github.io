@@ -99,7 +99,7 @@
 .info-map {
   position: absolute;
   background: #000;
-  top: 0px;
+  top: 0;
   right: 0;
   z-index: 999999;
   width: 237px;
@@ -113,7 +113,9 @@
   animation-fill-mode: forwards;
 
   @media(max-width: 900px){
-	  top: 10%;
+	  bottom: 0;
+    left: 0;
+    top: 83%;
   }
 
   span {

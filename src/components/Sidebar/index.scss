@@ -178,6 +178,12 @@
         font-size: 15px;
         line-height: 16px;
         color: #4d4d4e;
+        
+        .facebook {
+          @media (max-width: 900px){
+            display: none;
+          }
+        }
 
 				@media (max-width: 900px){
 					line-height: 60px;

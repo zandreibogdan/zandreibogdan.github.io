@@ -51,17 +51,17 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
+          <a href="https://www.instagram.com/zandreibogdan" rel="noreferrer" target="_blank">
+            <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
           <a
             href="https://www.facebook.com/zandreibogdan"
             rel="noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/zandreibogdan" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" className="facebook" />
           </a>
         </li>
       </ul>
