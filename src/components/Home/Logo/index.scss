@@ -1,0 +1,31 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  position: absolute;
+  top: 0;
+  right: 1%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  @media(max-width: 900px){
+    display: none;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    transform: rotateZ(180deg) !important;
+  }
+  .st0 {
+    fill: #FFFFFF;
+    stroke:#231F20;
+    stroke-miterlimit: 10;
+    }
+}
+
+.svg-container {
+  stroke: #FFFFA7;
+  stroke-width: 7;
+}
