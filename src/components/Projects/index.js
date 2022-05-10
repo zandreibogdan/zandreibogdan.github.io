@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect } from 'react'
 import instaproject from '../../assets/images/insta-project.png'
 import tenzies from '../../assets/images/tenzies.png'
+import sketchclone from '../../assets/images/etch-a-sketch.png'
 
 export default function Projects() {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -65,11 +66,11 @@ export default function Projects() {
           </div>
 
           <div className="portfolio-card">
-            <a href="https://instaggram-cloned.netlify.app/">
-              <img src={instaproject} alt="insta-project" />
+            <a href="https://zandreibogdan.github.io/sketch-clone/">
+              <img src={sketchclone} alt="sketch-clone" />
             </a>
-            <h3 className="portfolio-card-title">Project title</h3>
-            <p className="portfolio-card-p">Project description</p>
+            <h3 className="portfolio-card-title">etch a sketch</h3>
+            <p className="portfolio-card-p">Made with React.js</p>
           </div>
 
           <div className="portfolio-card">
