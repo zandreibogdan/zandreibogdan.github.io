@@ -69,7 +69,7 @@ export default function Projects() {
             <a href="https://zandreibogdan.github.io/sketch-clone/">
               <img src={sketchclone} alt="sketch-clone" />
             </a>
-            <h3 className="portfolio-card-title">etch a sketch</h3>
+            <h3 className="portfolio-card-title">Etch a sketch</h3>
             <p className="portfolio-card-p">Made with React.js</p>
           </div>
 
