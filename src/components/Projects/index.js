@@ -52,7 +52,7 @@ export default function Projects() {
             </a>
             <h3 className="portfolio-card-title">Instagram clone</h3>
             <p className="portfolio-card-p">
-              Made using Next.js, Firebase v9, Tailwind CSS and more
+              Made using Next.js, Firebase v9, Tailwind CSS and more.
             </p>
           </div>
 
@@ -62,7 +62,7 @@ export default function Projects() {
             </a>
             <h3 className="portfolio-card-title">Tenzies</h3>
             <p className="portfolio-card-p">
-              Made as a way to train and improve React.js skills{' '}
+              Made as a way to train and improve React.js skills.{' '}
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function Projects() {
             <a href="https://zandreibogdan.github.io/sketch-clone/">
               <img src={sketchclone} alt="sketch-clone" />
             </a>
-            <h3 className="portfolio-card-title">Etch a sketch</h3>
+            <h3 className="portfolio-card-title">Etch a sketch.</h3>
             <p className="portfolio-card-p">Made with React.js</p>
           </div>
 
@@ -80,7 +80,7 @@ export default function Projects() {
             </a>
             <h3 className="portfolio-card-title">War zone</h3>
             <p className="portfolio-card-p">
-              Made with Vanilla JavaScript, focusing on DOM Manipulation
+              Made with Vanilla JavaScript, focusing on DOM Manipulation.
             </p>
           </div>
         </div>
